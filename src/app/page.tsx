@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroCard from "./components/HeroCard";
 import IntroCard from "./IntroCard";
 import SkillsCard from "./SkillsCard";

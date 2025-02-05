@@ -1,4 +1,4 @@
-import { Briefcase, FilePenLine, Folder, House, Newspaper } from "lucide-react";
+import { Briefcase, Folder, House, Newspaper } from "lucide-react";
 import Link from "next/link";
 
 export default function NavBar() {
