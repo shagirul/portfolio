@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "mygray-100": "#1c1a19",
+        "mygray-200": "#353335",
+        "mygray-300": "#998f8f",
+        "orange-accent": "#f46c39",
+        "green-accent": "#c5ff41",
       },
     },
   },
