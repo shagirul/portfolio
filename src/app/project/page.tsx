@@ -1,7 +1,5 @@
 import HeroCard from "../components/HeroCard";
-import IntroCard from "../IntroCard";
 import ProjectCard from "../ProjectCard";
-import SkillsCard from "../SkillsCard";
 
 export default function ProjectsPage() {
   return (

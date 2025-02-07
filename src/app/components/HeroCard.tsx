@@ -1,4 +1,4 @@
-import { Braces, Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 
 export default function HeroCard() {
   return (

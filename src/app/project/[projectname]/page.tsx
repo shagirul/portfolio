@@ -1,8 +1,6 @@
 import OverViewCard from "./OverView";
 import Highlight from "./Highlight";
 import RecentPageButton from "@/app/components/RecentPageButton";
-import {} from "lucide-react";
-import Link from "next/link";
 import CtaSection from "./CtaButtonSection";
 
 export default function BlogPost({
@@ -13,7 +11,6 @@ export default function BlogPost({
   return (
     <main className="flex flex-col lg:flex-row gap-8 max-w-[1300px] px-5 mx-auto  flex-grow-0 pb-16">
       <div className="lg:hidden">
-        {" "}
         <CtaSection isMobile />
       </div>
       <div className="lg:flex hidden lg:min-h-[548px] max-h-[700px]  lg:h-fit w-full lg:w-fit lg:min-w-[344px]  sticky top-[136px]   flex-col gap-11">
