@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="fixed  w-screen  h-fit  p-4 pb-8 lg:p-8 lg:pb-16  flex items-center justify-center">
+    <div className="  w-screen  h-fit  p-4 pb-8 lg:p-8 lg:pb-16  flex items-center justify-center bg-background">
       <div className=" lg:w-fit flex justify-between items-center px-6 py-3 bg-mygray-100 rounded-lg gap-8">
         <Link href={"/"}>
           <House />

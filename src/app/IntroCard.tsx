@@ -1,6 +1,6 @@
 export default function IntroCard() {
   return (
-    <div className="flex flex-col gap-6 h-full min-h-[200px] snap-start justify-end  mt-[10vh]">
+    <div className="flex flex-col gap-6 h-full min-h-[200px] snap-start justify-end  ">
       <div className="flex flex-col gap-3">
         <h1 className=" text-[52px] lg:text-9xl text-foreground font-bold lg:leading-[90%] leading-[90%] uppercase ">
           software <br></br>

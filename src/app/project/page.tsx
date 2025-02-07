@@ -1,7 +1,5 @@
-import HeroCard from "./components/HeroCard";
-import IntroCard from "./IntroCard";
-import ProjectCard from "./ProjectCard";
-import SkillsCard from "./SkillsCard";
+import HeroCard from "../components/HeroCard";
+import ProjectCard from "../ProjectCard";
 
 export default function Page() {
   return (
@@ -14,8 +12,7 @@ export default function Page() {
         <div className="flex lg:hidden w-full   snap-start ">
           <HeroCard />
         </div>
-        <IntroCard />
-        <SkillsCard />
+
         <ProjectCard />
       </div>
     </main>
