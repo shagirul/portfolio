@@ -3,11 +3,12 @@ import Highlight from "./Highlight";
 import RecentPageButton from "@/app/components/RecentPageButton";
 import CtaSection from "./CtaButtonSection";
 
-export default function BlogPost({
+export default async function Page({
   params,
 }: {
-  params: { projectname: string };
+  params: Promise<{ projectname: string }>;
 }) {
+  const { projectname } = await params;
   return (
     <main className="flex flex-col lg:flex-row gap-8 max-w-[1300px] px-5 mx-auto  flex-grow-0 pb-16">
       <div className="lg:hidden">
@@ -18,7 +19,7 @@ export default function BlogPost({
           <RecentPageButton size={"48px"} />
           <div className="max-w-[256px] w-full">
             <p className="text-foreground font-bold text-[2.5rem] uppercase h-auto break-words leading-none pt-1">
-              {params.projectname}
+              {projectname}
             </p>
           </div>
         </div>
