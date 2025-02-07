@@ -4,8 +4,10 @@ import Link from "next/link";
 export default function CtaSection({ isMobile }: { isMobile: boolean }) {
   return (
     <div
-      className={` flex gap-3   bg-background  flex-grow-0 w-full ${
-        isMobile ? "fixed bottom-0 w-[90%] pt-4 pb-8" : "static px-5"
+      className={` flex gap-3   bg-background  flex-grow-0 items-center  ${
+        isMobile
+          ? "fixed bottom-0 w-[90%] pt-4 pb-8 z-10 "
+          : "static px-5 w-full"
       } `}
     >
       <Link

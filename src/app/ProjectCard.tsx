@@ -1,5 +1,6 @@
 import { Github, Zap } from "lucide-react";
 import Link from "next/link";
+import ExternalButton from "./components/ExternalButton";
 
 export default function ProjectCard() {
   return (
@@ -19,24 +20,18 @@ export default function ProjectCard() {
             <div className="flex flex-col h-full justify-between lg:min-h-96 ">
               <div className="aspect-square min-w-12 lg:min-w-[230px] h-auto bg-mygray-200 "></div>
               <div className="hidden lg:flex flex-col gap-3">
-                <Link
-                  className="w-full h-full rounded flex gap-2 bg-orange-accent items-center justify-center px-4 py-2"
-                  href={"/project"}
-                >
-                  <Zap opacity={"50%"} color="white" />
-                  <p className="text-white font-semibold text-lg text-opacity-80">
-                    Live Link
-                  </p>
-                </Link>
-                <Link
-                  className="w-full h-full rounded flex gap-2  bg-green-accent px-4 py-2  items-center justify-center"
-                  href={"/project"}
-                >
-                  <Github opacity={"50%"} color="black" />
-                  <p className="text-black font-semibold text-lg text-opacity-80">
-                    Git Repo
-                  </p>
-                </Link>
+                <ExternalButton
+                  href="/"
+                  variant="orange"
+                  text="Live Link"
+                  icon={<Zap opacity={"50%"} color="white" />}
+                ></ExternalButton>
+                <ExternalButton
+                  href="/"
+                  variant="green"
+                  text="Git Repo"
+                  icon={<Github opacity={"50%"} color="black" />}
+                ></ExternalButton>
               </div>
             </div>
 
