@@ -10,6 +10,8 @@
   --mygray-300: #998f8f;
   --orange-accent: #f46c39;
   --green-accent: #c5ff41;
+  /* transform: scale(0.9);
+  transform-origin: top; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +23,8 @@
     --mygray-300: #998f8f;
     --orange-accent: #f46c39;
     --green-accent: #c5ff41;
+    /* transform: scale(0.9);
+    transform-origin: top; */
   }
 }
 

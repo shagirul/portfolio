@@ -1,11 +1,15 @@
 import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
+import Image from "next/image";
+import Illustration from "../../../public/heroIllustartion.png";
 
 export default function HeroCard() {
   return (
-    <div className="h-full w-full flex flex-col  flex-grow-0 justify-between gap-6">
-      <div className="w-full aspect-[9/12] lg:aspect-[4/3] bg-mygray-200 max-h-[50vh] rounded-lg"></div>
+    <div className="h-full w-full flex flex-col  flex-grow-0 justify-between items-start gap-6 ">
+      <div className="w-full  aspect-[4/3] bg-mygray-200/40 max-h-[50vh] rounded-lg">
+        <Image className="object-cover" alt="hero img" src={Illustration} />
+      </div>
       <div className="flex flex-col gap-3">
-        <p className="uppercase font-bold text-5xl leading-[90%]">
+        <p className="uppercase font-bold text-4xl leading-[90%]">
           shagirul <br></br>hassan
         </p>
         <div className="flex lg:flex-col lg:w-full w-fit gap-4">

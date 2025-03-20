@@ -6,7 +6,7 @@ import SkillsCard from "./SkillsCard";
 export default function Page() {
   return (
     <main className="flex flex-col lg:flex-row gap-8 max-w-[1300px] px-5 mx-auto  flex-grow-0">
-      <div className="lg:flex hidden lg:min-h-[548px] max-h-[700px]  lg:h-fit w-full lg:w-fit lg:min-w-[344px]  sticky top-[136px]">
+      <div className="lg:flex h-full hidden lg:min-h-[548px] max-h-[700px]  lg:h-fit w-full lg:w-fit lg:min-w-[344px]  sticky top-[100px]">
         <HeroCard />
       </div>
 
